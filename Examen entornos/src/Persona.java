@@ -13,9 +13,13 @@ public class Persona {
     
   }
   
-  public void cumpleaños(int edad) {
+  public void cumpleaños() {
     edad = edad + 1;
     System.out.println(edad);
+  }
+  
+  public void datosPersona() {
+    System.out.println(nombre + apellido + edad);
   }
 
 }
